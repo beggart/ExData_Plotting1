@@ -1,9 +1,9 @@
 library("data.table")
 
-setwd("D:\r-working-directory\GettingAndCleaningData\ExData_Plotting1")
+setwd("D:/r-working-directory/GettingAndCleaningData/ExData_Plotting1")
 
 #Reads in data from file then subsets data for specified dates
-powerDT <- data.table::fread(input = "household_power_consumption.txt"
+powerDT <- data.table::fread(input = "D:/household_power_consumption.txt"
                              , na.strings="?"
 )
 
